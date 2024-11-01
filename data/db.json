@@ -1,0 +1,87 @@
+{
+  "books": [
+    {
+      "id": "BO-0001",
+      "title": "Learn React",
+      "category": "CAT-001",
+      "date": "10/05/2023",
+      "quantity": 5,
+      "description": "Hard",
+      "price": "10000",
+      "entryDate": "2024-11-01"
+    },
+    {
+      "id": "BO-0002",
+      "title": "JavaScript Essentials",
+      "category": "CAT-002",
+      "date": "12/07/2022",
+      "quantity": 3,
+      "description": "Hard",
+      "price": "15000",
+      "entryDate": "2024-11-01"
+    },
+    {
+      "id": "BO-0003",
+      "title": "Data Science 101",
+      "category": "CAT-003",
+      "date": "01/01/2021",
+      "quantity": 7,
+      "description": "Hard",
+      "price": "11000",
+      "entryDate": "2024-11-01"
+    },
+    {
+      "id": "BO-0005",
+      "title": "Java 101",
+      "description": "Hard",
+      "category": "Programming",
+      "price": "1000",
+      "quantity": "10",
+      "entryDate": "2024-11-01"
+    },
+    {
+      "id": "BO-0006",
+      "title": "Python 101",
+      "description": "Hard",
+      "category": "Data Science",
+      "price": "1000",
+      "quantity": "10",
+      "entryDate": "2024-11-01"
+    },
+    {
+      "id": "BO-0004",
+      "title": "Flutter 101",
+      "description": "Hard",
+      "category": "Programming",
+      "price": "5000",
+      "quantity": "10",
+      "entryDate": "2024-11-01"
+    },
+    {
+      "id": "BO-0007",
+      "title": "PHP 101",
+      "description": "Hard",
+      "category": "Web Development",
+      "price": "7000",
+      "quantity": "10",
+      "entryDate": "2024-11-01"
+    }
+  ],
+  "categories": [
+    {
+      "id": "CAT-001",
+      "name": "Programming",
+      "description": "Books on programming languages and tools"
+    },
+    {
+      "id": "CAT-002",
+      "name": "Web Development",
+      "description": "Books about web technologies and development"
+    },
+    {
+      "id": "CAT-003",
+      "name": "Data Science",
+      "description": "Books on data analysis and machine learning"
+    }
+  ]
+}

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
+import AddBook from './components/AddBook';
+import BookList from "./components/BookList";
+import SearchBook from "./components/SearchBook";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <div>
+                <nav>
+                    <ul>
+                        <li><Link to="/">Trang chủ</Link></li>
+                        <li><Link to="/add-book">Thêm sách</Link></li>
+                        <li><Link to="/search-book">Tìm kiếm</Link></li>
+                    </ul>
+                </nav>
+                <Routes>
+                    <Route path="/" element={<BookList/>}/>
+                    <Route path="/add-book" element={<AddBook/>}/>
+                    <Route path="/search-book" element={<SearchBook/>}/>
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
+
